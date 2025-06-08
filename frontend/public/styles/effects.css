@@ -1,0 +1,58 @@
+ /* Effects */
+
+  /*Rotate In Effect*/
+  @keyframes rotateIn {
+    0% {
+      opacity: 0;
+      transform: rotate(-10deg) scale(0.9);
+    }
+    100% {
+      opacity: 1;
+      transform: rotate(0deg) scale(1);
+    }
+  }
+
+  .rotate-images {
+  opacity: 0;
+  transform: rotate(-10deg) scale(0.9);
+  transition: all 0.4s ease;
+  }
+
+  .rotate-images.visible {
+  animation: rotateIn 2s ease forwards;
+  }
+
+  /*Zoom In Effect*/
+  @keyframes zoomIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  }
+
+  .zoom-in {
+    opacity: 0;
+    transform: scale(0.95);
+    transition: all 0.5s ease;
+  }
+
+  .zoom-in.loaded {
+    animation: zoomIn 1s ease forwards;
+  }
+
+  /*Floating Effect*/
+
+  .floating {
+  animation: float 3s ease-in-out infinite;
+  }
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-8px); }
+  }
+
+  
