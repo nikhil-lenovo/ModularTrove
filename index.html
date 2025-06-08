@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper('.swiper', {
+      loop: true,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev'
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true
+      }
+    });
+  </script>
+  <title>Modular Trove</title>
+<style>
+  .hero-section {
+    position: relative;
+    height: 100vh;
+    background-image: url('images/Background.jpg'); /* Use your local background image path */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 40px;
+  }
+  .hero-content {
+    display: flex;
+    background-color: rgba(23, 118, 155, 0.25); /* Overlay background */
+    backdrop-filter: blur(8px);
+    padding: 40px;
+    border-radius: 12px;
+    color: white;
+    font-family: 'Kufam', sans-serif;
+    gap: 40px;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    width: 100%;
+    line-height: 1.5;
+  }
+  .hero-overlay {
+    flex: 1 1 50%;
+  }
+  .hero-buttons {
+    margin-top: 30px;
+  }
+  .btn {
+    background-color: #756c38; 
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: background 0.3s;
+  }
+  .btn:hover {
+    background-color: #1a4663;
+  }
+</style>  
+</head>
+
+<link rel="stylesheet" href="styles/menu.css">
+<link rel="stylesheet" href="styles/products.css">
+<link rel="stylesheet" href="styles/about.css">
+<link rel="stylesheet" href="styles/service.css">
+<link rel="stylesheet" href="styles/process.css">
+<link rel="stylesheet" href="styles/contact.css">
+<link rel="stylesheet" href="styles/team.css">
+<link rel="stylesheet" href="styles/testimonials.css">
+<link rel="stylesheet" href="styles/effects.css">
+<link rel="stylesheet" href="styles/footer.css">
+
+<body>
+  <header class="navbar">
+    <div class="navbar-container">
+    <div class="logo">Modular Trove</div>
+    <nav class="menu">
+      <a href="#">Home</a>
+      <a href="#">Our Services <span class="arrow">▼</span></a>
+      <a href="#">Our Projects <span class="arrow">▼</span></a>
+      <a href="#">About Us</a>
+      <a href="#">Contact</a>
+      <a href="https://wa.me/919766178848" target="_blank" rel="noopener noreferrer" class="whatsapp-btn">
+        <i class="fab fa-whatsapp"></i> WhatsApp
+      </a>
+    </nav>
+    </div>
+  </header>
+
+    <!-- Hero Section -->
+<section className="hero fade-in">
+  <div class="hero-section">
+    <div class="hero-content">
+      <div class="hero-overlay">
+        <h1>Elevate Your Space with Modular Elegance</h1>
+        <p>Welcome to Modular Trove - where craftsmanship meets functionality.
+            We bring spaces to life with personalized modular designs that reflect your unique style, blending modern aesthetics with timeless sophistication. With in-house manufacturing and a dedicated display center, we ensure exceptional quality and offer you a firsthand experience of our custom creations.</p></p>
+        <div class="hero-buttons">
+          <a href="#shop" class="btn">Contact Us on +91 7770077223</a>
+        </div>
+      </div>
+  
+      <!-- Contact Form -->
+      <div class="contact-form">
+          <h2>Talk to Our Expert</h2>
+          <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Email Address" required>
+            <input type="tel" placeholder="Phone Number" required>
+            <button type="submit">Get a Quote</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="products">
+    <div class="services-section">
+      <h2>Our Work</h2>
+      <div class="divider"></div>
+      <p class="intro">Transforming Spaces with Innovative and Ergonomic Modular Designs.</p>
+    </div>
+    <div class="services-container">
+    <div class="product-card">
+      <img src="images/Modular Kitchen.avif" alt="Modular Kitchen">
+      <h3>Modular Kitchen</h3>
+      <p>Elegant and functional kitchen designs tailored to your needs.</p>
+    </div>
+    <div class="product-card">
+      <img src="images/Wardrobe Solutions.jpg" alt="Wardrobe Solutions">
+      <h3>Wardrobe Solutions</h3>
+      <p>Space-saving wardrobes with customizable compartments.</p>
+    </div>
+    <div class="product-card">
+      <img src="images/Living Room Sets.jpg" alt="Living Room Sets">
+      <h3>Living Room Sets</h3>
+      <p>Stylish and comfortable furniture to enhance your living area.</p>
+    </div>
+    <div class="product-card">
+        <img src="images/Office.jpg" alt="Office Work Space">
+        <h3>Office Work Space</h3>
+        <p>Efficient Storage, Sleek Design, Smarter Spaces.</p>
+    </div>
+    <div class="product-card">
+        <img src="images/Shop.jpg" alt="Retail Shops">
+        <h3>Retail Shops</h3>
+        <p>Retail Solutions with Modular Elegance and Utility.</p>
+    </div>
+  </div>
+  </section>
+
+<!-- Section Why Us -->
+<section class="about-section">
+    <div class="about-container">
+      <!-- Content Section -->
+      <div class="about-content">
+            <h2>Why Us</h2>
+        <p>
+          At Modular Trove, we excel in both the manufacturing and showcasing of high-quality modular furniture. 
+          Our products are designed to be easily assembled and customized, making them perfect for any space and style preference.
+        </p>
+        <p>
+          Our display center features an extensive range of designs and styles, allowing you to find the perfect piece 
+          to enhance your living or working environment.
+        </p>
+        <a href="#" class="read-more-btn">READ MORE</a>
+      </div>
+      <!-- Image Section -->
+      <div class="about-images">
+        <div class="image-wrapper base">
+          <img src="images/Bedroom.jpg" alt="Modular Bedroom">
+        </div>
+        <div class="image-wrapper overlay">
+          <img src="images/Kitchen.jpg" alt="Modular Kitchen">
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Section Services -->
+  <section class="services-section">
+    <h2>Our Services</h2>
+    <div class="divider"></div>
+    <p class="intro">Transforming Spaces with Innovative and Ergonomic Modular Designs.</p>
+  
+    <div class="services-container">
+      <div class="service-card">
+        <img src="images/Design_Residential.jpg" alt="Residential Design" class="rotate-images visible"/>
+        <h3>RESIDENTIAL DESIGN</h3>
+        <p>From bedrooms to kitchens – modular designs that elevate home living.</p>
+      </div>
+      <div class="service-card">
+        <img src="images/Design_Office.png" alt="Office Design" class="rotate-images visible"/>
+        <h3>OFFICE DESIGN</h3>
+        <p>Reimagine your workspace with comfort-driven, space-saving designs.</p>
+      </div>
+      <div class="service-card">
+        <img src="images/Design_Commercial.jpg" alt="Commercial Design" class="rotate-images visible"/>
+        <h3>COMMERCIAL DESIGN</h3>
+        <p>Maximize utility and aesthetics with custom commercial modular furniture.</p>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- Section Our Process -->
+  <section class="process-section">
+    <h2>Our Process</h2>
+  
+    <div class="process-row">
+      <div class="step"><span>1</span><p>Visit our<br>Display Center</p></div>
+      <div class="arrow"><img src="images/logo-arrow-right-wave.svg" alt="arrow"></div>
+      <div class="step"><span>2</span><p>Analysis<br>Design</p></div>
+      <div class="arrow"><img src="images/logo-arrow-right-wave.svg" alt="arrow"></div>
+      <div class="step"><span>3</span><p>Basic<br>Quotation</p></div>
+      <div class="arrow"><img src="images/logo-arrow-right-wave.svg" alt="arrow"></div>
+      <div class="step"><span>4</span><p>Pre<br>Approval</p></div>
+      <div class="arrow"><img src="images/logo-arrow-right-wave.svg" alt="arrow"></div>
+      <div class="step"><span>5</span><p>Site<br>Visit</p></div>
+      <img src="images/logo_down_arrow.svg" alt="Downward Arrow" class="arrow-down"/>
+    </div>
+  
+    <div class="process-row process-row-margin">
+      <div class="step"><span>10</span><p>Installation</p></div>
+      <div class="arrow"><img src="images/logo-arrow-left-wave.svg" alt="arrow"></div>
+      <div class="step"><span>9</span><p>25–30 days<br>Processing Period</p></div>
+      <div class="arrow"><img src="images/logo-arrow-left-wave.svg" alt="arrow"></div>
+      <div class="step"><span>8</span><p>Contract<br>Agreement</p></div>
+      <div class="arrow"><img src="images/logo-arrow-left-wave.svg" alt="arrow"></div>
+      <div class="step"><span>7</span><p>Final<br>Quote</p></div>
+      <div class="arrow"><img src="images/logo-arrow-left-wave.svg" alt="arrow"></div>
+      <div class="step"><span>6</span><p>Finalize<br>Design</p></div>
+    </div>
+  </section>
+
+<!-- Section Testimonial -->
+  <section class="testimonials-section">
+    <div class="container">
+      <h2 class="title">What Our Clients Say</h2>
+      <!-- <h3 class="subtitle">Testimonials</h3> -->
+
+      <div class="testimonial-slider swiper">
+        <div class="swiper-wrapper">
+          <!-- Testimonial 1 -->
+          <div class="swiper-slide testimonial-card">
+            <img src="images/Client-1.jpg" alt="Client 1" class="client-img">
+            <h4>Nikhil Nawale</h4>
+            <p class="client-role">Owner of Building Co.</p>
+            <p class="testimonial-text">“Modular Trove’s furniture is stylish, functional, and customizable to fit any space perfectly. The quality and attention to detail are exceptional. Working with their team was a pleasure. I highly recommend Modular Trove for anyone looking for high-quality, customizable furniture.”</p>
+          </div>
+  
+          <!-- Testimonial 2 -->
+          <div class="swiper-slide testimonial-card">
+            <img src="images/Client-2.jpg" alt="Client 2" class="client-img">
+            <h4>Shubham Murkute</h4>
+            <p class="client-role">Owner of Building Co.</p>
+            <p class="testimonial-text">“Modular Trove’s furniture is stylish, functional, and customizable to fit any space perfectly. The quality and attention to detail are exceptional. Working with their team was a pleasure. I highly recommend Modular Trove for anyone looking for high-quality, customizable furniture.”</p>
+          </div>
+  
+          <!-- Testimonial 3 -->
+          <div class="swiper-slide testimonial-card">
+            <img src="images/Client-3.jpg" alt="Client 3" class="client-img">
+            <h4>Mayur Phatangare</h4>
+            <p class="client-role">Owner of Building Co.</p>
+            <p class="testimonial-text">“Modular Trove’s furniture is stylish, functional, and customizable to fit any space perfectly. The quality and attention to detail are exceptional. Working with their team was a pleasure. I highly recommend Modular Trove for anyone looking for high-quality, customizable furniture.”</p>
+          </div>
+        </div>
+
+        <!-- Navigation arrows -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        
+        <!-- Pagination dots -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section Team -->
+  <section class="team-section">
+    <h2>Meet the Team</h2>
+    <p>Our team of experts is dedicated to delivering exceptional results for our clients.</p>
+    
+    <div class="team-members">
+      <div class="team-card">
+        <img src="images/Team1.jpg" alt="Devendra Kanawade">
+        <h3>Devendra Kanawade</h3>
+        <p>Director</p>
+      </div>
+      <div class="team-card">
+        <img src="images/Team2.jpg" alt="Jatin Chauhan">
+        <h3>Jatin Chauhan</h3>
+        <p>Senior Designer</p>
+      </div>
+      <div class="team-card">
+        <img src="images/Team3.jpg" alt="Meet Nawale">
+        <h3>Meet Nawale</h3>
+        <p>Senior Designer</p>
+      </div>
+      <div class="team-card">
+        <img src="images/Team4.jpg" alt="Nikhil Nawale">
+        <h3>Nikhil Nawale</h3>
+        <p>Project Manager</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-about">
+        <h2>Modular Trove</h2>
+        <h3>Smart Furniture, Smart Living</h3>
+        <p>We work with top brands for hardware such as BLUM, HAFELE, HETTICH, and EBCO to ensure our furniture has the best fittings. For pre-laminated boards, we use products from trusted suppliers like Action Tesa, Century Enka, Greenlam, Asian, and Marino.</p>
+        <div class="footer-socials">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <ul>
+          <li><strong>Company</strong></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Contact us</a></li>
+        </ul>
+        <ul>
+          <li><strong>About</strong></li>
+          <li><a href="#">Our Work</a></li>
+          <li><a href="#">Our team</a></li>
+          <li><a href="#">Architects</a></li>
+        </ul>
+        <ul>
+          <li><strong>Address List</strong></li>
+          <li><img src="images/location.svg" class="icon" alt="Location" /><a href="#">SN 57, Kolekar Nagar Nande-Balewadi Road, Mahalunge, 411045</a></li>
+          <li><img src="images/phone.svg" class="icon" alt="Phone" /><a href="#">+91 9766178848</a></li>
+          <li><img src="images/email.svg" class="icon" alt="Email" /><a href="#">modulartrrove@gmail.com</a></li>
+        </ul>
+      </div>
+    </div>
+  
+    <div class="footer-bottom">
+      <p>Copyright ©2025. All Rights Reserved. - Modular Trove <a href="#">Modulartrove.com</a></p>
+      <div class="footer-policy">
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Privacy Policy</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
