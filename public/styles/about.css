@@ -1,0 +1,135 @@
+
+  /* About - Why Us*/  
+  .about-section {
+    background: #fff;
+    padding: 80px 20px;
+    }
+
+    .about-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    }
+
+    .about-images {
+    flex: 1;
+    position: relative;
+    max-width: 500px;
+    }
+
+    .image-wrapper {
+    border: 10px solid #eeeeee;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(28, 66, 89, 0.7);
+   }
+
+    .image-wrapper img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    transform: translateX(0) rotate(0deg);
+    z-index: 1;
+    }
+
+    .image-wrapper.base {
+    position: relative;
+    z-index: 1;
+    }
+
+    .image-wrapper.overlay {
+    position: absolute;
+    top: 15%;
+    left: 60%;
+    z-index: 2;
+    width: 60%;
+    }
+
+    .about-content {
+    flex: 1;
+    min-width: 300px;
+    margin-bottom: 50px;
+    }
+
+    .section-title {
+    position: relative;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    }
+
+    .section-title h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #0a0a4a;
+    background: white;
+    padding: 0 10px;
+    z-index: 2;
+    position: relative;
+    }
+
+    .highlight-bar {
+    flex-grow: 1;
+    height: 3px;
+    background: #917e01; /* yellow */
+    z-index: 1;
+    }
+
+    .highlight-bar.right {
+    margin-left: auto;
+    }
+
+    .about-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #444;
+    margin-bottom: 20px;
+    font-family: 'Kufam', sans-serif;
+    }
+
+    .about-content h2 {
+    font-size: 2rem;
+    color: #052c47;
+    font-family: 'Kufam', sans-serif;
+    margin-bottom: 30px;
+    position: relative;
+    }
+
+    .about-content h2::before,
+    .about-content h2::after {
+    content: '';
+    position: absolute;
+    top: 90%;
+    width: 115px;
+    height: 5px;
+    display: block;
+    background: rgba(23, 118, 155, 0.25);
+    margin: 12px auto 30px;
+    }
+
+    .about-content p {
+    margin-bottom: 16px;
+    line-height: 1.6;
+    color: #333;
+    }
+
+    .read-more-btn {
+    display: inline-block;
+    background: #756c38;
+    color: white;
+    font-weight: 600;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+    }
+
+    .read-more-btn:hover {
+    background: #1a4663;
+    }
+
+    

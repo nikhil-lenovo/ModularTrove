@@ -1,0 +1,60 @@
+/* Testimonials*/  
+.testimonials-section {
+    text-align: center;
+    padding: 20px 20px;
+    background-color: rgb(255, 255, 255); /* Overlay background */
+    backdrop-filter: blur(10px);
+    font-family: 'Kufam', sans-serif;
+    }
+
+    .subtitle {
+    font-weight: bold;
+    color: #052c47;
+    font-family: 'Kufam', sans-serif;
+    font-size: 1.7rem;
+    }
+
+    .title {
+    font-size: 2rem;
+    margin-bottom: 40px;
+    color: #052c47;
+    font-family: 'Kufam', sans-serif;
+    }
+
+    .title::after {
+    content: '';
+    display: block;
+    background: rgba(23, 118, 155, 0.25);
+    margin: 8px auto 30px;
+    width: 320px;
+    height: 5px;
+  }
+
+    .testimonial-card {
+    max-width: 400px;
+    padding: 20px;
+    margin: auto;
+    }
+
+    .client-img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 2px;
+    }
+
+    .client-role {
+    color: #634e14;
+    font-weight: bold;
+    font-size: 0.85rem;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    }
+
+    .testimonial-text {
+    font-style: italic;
+    color: #194867;
+    }
+   
+  

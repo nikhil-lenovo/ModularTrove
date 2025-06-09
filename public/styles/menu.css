@@ -1,0 +1,85 @@
+   body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, Kufam;
+      background-color: #f9f9f9;
+    }
+    header {
+      /*background-color: #ffffff;*/
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    header h1 {
+      margin: 0;
+      color: #333333;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #f0efef;
+      font-weight: 500;
+    }
+
+    .navbar {
+      background-color: rgba(23, 118, 155, 0.35);
+      backdrop-filter: blur(10px);
+      border-radius: 0 0 20px 20px; /* Rounded bottom corners */
+      padding: 15px 0;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      left: 0;
+      z-index: 1000;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .navbar-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      white-space: nowrap;
+      color: white;
+      text-align: center;
+    }
+
+    .menu {
+      display: flex;
+      gap: 5px;
+      justify-content: center;
+      flex: 1;
+    }
+
+    .menu a {
+      text-decoration: none;
+      color: white;
+      font-family: 'Kufam', sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      padding: 6px 10px;
+      border-radius: 6px;
+      transition: background 0.3s ease, color 0.3s ease;
+    }
+
+    .menu a:hover {
+      background-color: rgba(255, 255, 255, 0.1);
+      color: #f1a310; /* Elegant highlight */
+    }
+
+    .arrow {
+    font-size: 0.7em;
+    margin-left: 4px;
+    }
+    
+   
+   
+    
+   

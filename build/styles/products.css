@@ -1,0 +1,32 @@
+/* Product Cards */
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 40px 20px;
+  background-color: #ffffff;
+  font-family: 'Kufam', sans-serif;
+}
+
+.product-card {
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    width: 280px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+    text-align: center;
+  }
+  .product-card img {
+    width: 100%;
+    height: auto;
+  }
+  .product-card h3 {
+    margin: 15px 0 10px;
+    color: #333333;
+    font-family: 'Kufam', sans-serif;
+  }
+  .product-card p {
+    margin: 0 15px 15px;
+    color: #666666;
+    font-family: 'Kufam', sans-serif;
+  }
